@@ -1,0 +1,27 @@
+.first-img{
+height: 200px;
+    float: left;
+margin-right: 30px;
+}
+.second-img{
+    height: 200px;
+    float: right;
+    margin-left: 30px;
+}
+p{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: aqua;
+    height: 100px;
+    justify-content: start;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: auto;
+}
